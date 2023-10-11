@@ -1,0 +1,32 @@
+ul.bullet {
+  list-style-type: circle;
+  margin: 20px;
+}
+.center {
+  text-align: center;
+}
+body {
+  background-color: beige;
+  border: solid black;
+  margin: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h {
+	font-size: 18px;
+}
+
+p {
+	font-size: 16px;
+}
+
+li {
+	font-size: 14px;
+}
+
+p, h1, h2, h3, h4 {
+margin: 20px;
+}
+.linkcolour {
+	color: red;
+}
