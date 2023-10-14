@@ -6,18 +6,26 @@ ul.bullet {
   text-align: center;
 }
 body {
-  background-color: beige;
-  border: solid black;
-  margin: 20px;
-  font-family: "Times New Roman", Times, serif;
+  background-color: honeydew;
+  border: double black;
+  border-width: 30px;
+  padding: 30px;
+  font-weight: normal;
 }
 
-h {
+h1 {
+	font-size: 32px;
+	background-color: white;
+	font-weight: bold;
+}
+h2, h3, h4 {
 	font-size: 18px;
+	font-weight: bold;
 }
 
 p {
 	font-size: 16px;
+	font-weight: normal;
 }
 
 li {
@@ -25,8 +33,61 @@ li {
 }
 
 p, h1, h2, h3, h4 {
-margin: 20px;
+	margin: 20px;
+	font-family: "Arial", Helvetica, sans-serif;
+	
+}
+
+.underline {
+	border-bottom: 3px solid black;
 }
 .linkcolour {
-	color: red;
+	color: darkslateblue;
+	text-decoration: underline;
 }
+
+.intlink {
+	color : Teal;
+}
+
+.imagetext {
+  position: relative;
+}
+
+#rightfloat {
+	float:right;
+}
+	
+img {
+	padding: 80px;
+}
+
+
+
+#paddingText {
+	padding-bottom: 50px;
+	padding-left:150px;
+}
+
+menu {
+	list-style-type: none;
+	margin:5;
+	padding: 0;
+	overflow: hidden;
+}
+
+
+
+li a {
+	display: block;
+	color:black;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: DarkSeaGreen;
+	font-family: "Arial", Helvetica, sans-serif;
+	text-align: center;
+	padding: 16px 16px;
+	text-decoration: underline;
+}
+
