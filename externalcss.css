@@ -54,9 +54,6 @@ p, h1, h2, h3, h4 {
   position: relative;
 }
 
-#rightfloat {
-	float:right;
-}
 	
 img {
 	padding: 80px;
@@ -88,6 +85,10 @@ li a {
 	font-family: "Arial", Helvetica, sans-serif;
 	text-align: center;
 	padding: 16px 16px;
+	float: left;
 	text-decoration: none;
+}
+li a:hover {
+	background-color: CornflowerBlue;
 }
 
