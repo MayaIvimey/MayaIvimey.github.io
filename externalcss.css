@@ -71,6 +71,7 @@ menu {
 	margin:5;
 	padding: 0;
 	overflow: hidden;
+	background-color: DarkSeaGreen;
 }
 
 
@@ -80,16 +81,12 @@ li a {
 	width:40%;
 	margin-left:auto;
 	margin-right:auto;
-	background-color: DarkSeaGreen;
 	font-family: "Arial", Helvetica, sans-serif;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
-li a:hover:not(.active) {
+li a:hover {
 	background-color: FireBrick;
 }
 
-.active{
-	background-colour: CornflowerBlue;
-}
