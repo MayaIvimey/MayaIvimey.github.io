@@ -46,9 +46,6 @@ p, h1, h2, h3, h4 {
 	text-decoration: none;
 }
 
-.intlink {
-	color : Teal;
-}
 
 .imagetext {
   position: relative;
@@ -68,7 +65,7 @@ img {
 
 menu {
 	list-style-type: none;
-	margin:5;
+	margin:0;
 	padding: 0;
 	overflow: hidden;
 	background-color: DarkSeaGreen;
