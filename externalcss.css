@@ -43,11 +43,11 @@ p, h1, h2, h3, h4 {
 .underline {
 	border-bottom: 3px solid black;
 }
-.linkcolour {
-	color: crimson;
-	text-decoration: none;
-}
 
+a[href*="http://"]:not([href*="https://mayaivimey.github.io"]) {
+	color: Crimson;
+
+}
 
 .imagetext {
   position: relative;
