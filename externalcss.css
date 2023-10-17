@@ -46,8 +46,10 @@ p, h1, h2, h3, h4 {
 
 .exLink {
 	color: Crimson;
-	text-decoration: none;
+}
 
+a {
+	text-decoration: none;
 }
 
 .imagetext {
