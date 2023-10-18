@@ -1,13 +1,13 @@
-<!-- This creates the list for the resume descriptions. This was inspired by the w3 schools tutorial on lists -->
+/*-- This creates the list for the resume descriptions. This was inspired by the w3 schools tutorial on lists */
 ul.bullet {
   list-style-type: circle;
   margin: 20px;
 }
-<!-- This class centers anything that calls it -->
+/* This class centers anything that calls it -->
 .center {
   text-align: center;
 }
-<!-- This declaration formats the body of the document. This was inspired by a variety of w3 schools css tutorials including backgrounds, padding, box model, and borders -->
+/* This declaration formats the body of the document. This was inspired by a variety of w3 schools css tutorials including backgrounds, padding, box model, and borders */
 body {
   background-color: honeydew;
   border: double black;
@@ -16,7 +16,7 @@ body {
   font-weight: normal;
 }
 
-<!-- These declarations were inspired by w3 schools' tutorial on selectors. They format the paragraphs, headings, and link text. --> 
+/* These declarations were inspired by w3 schools' tutorial on selectors. They format the paragraphs, headings, and link text. */
 h1 {
 	font-size: 32px;
 	background-color: white;
@@ -51,7 +51,7 @@ p, h1, h2, h3, h4 {
 	border-bottom: 3px solid black;
 }
 
-<!-- These declarations style the external links. The text is red to contrast with the green background and the underline is removed. The code is inspired by the w3 schools css links tutorial -->
+/* These declarations style the external links. The text is red to contrast with the green background and the underline is removed. The code is inspired by the w3 schools css links tutorial */
 .exLink {
 	color: Crimson;
 }
@@ -60,7 +60,7 @@ a {
 	text-decoration: none;
 }
 
-<!--These declarations are for the images in the portfolio. They position the text and put padding around the image so that they are separated from the sides and text. This comes from the w3 schools image tutorial-->
+/* These declarations are for the images in the portfolio. They position the text and put padding around the image so that they are separated from the sides and text. This comes from the w3 schools image tutorial-*/
 .imagetext {
   position: relative;
 }
@@ -70,15 +70,15 @@ img {
 	padding: 80px;
 }
 
-<!-- this ID adds padding to any text. It is references in the portfolio to add space between a paragraph and heading --> 
+/* this ID adds padding to any text. It is references in the portfolio to add space between a paragraph and heading */
 
 #paddingText {
 	padding-bottom: 50px;
 	padding-left:150px;
 }
 
-<!-- These three statements format the navigation bar. This was inspired by the w3 schools navigation bar tutorial. The green text was to blend in with the green background. The internal links go to the resume and portfolio 
-documents hosted in github. When the cursor hovers over the links they turn red to contrast with the green -->  
+/* These three statements format the navigation bar. This was inspired by the w3 schools navigation bar tutorial. The green text was to blend in with the green background. The internal links go to the resume and portfolio 
+documents hosted in github. When the cursor hovers over the links they turn red to contrast with the green */  
 
 menu {
 	list-style-type: none;
