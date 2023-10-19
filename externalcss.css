@@ -16,6 +16,8 @@ body {
   font-weight: normal;
 }
 
+/*The three extra options i used were a nav bar, external links, and images*/
+
 /* These declarations were inspired by w3 schools' tutorial on selectors. They format the paragraphs, headings, and link text. */
 h1 {
 	font-size: 32px;
